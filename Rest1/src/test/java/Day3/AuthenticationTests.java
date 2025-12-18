@@ -56,7 +56,8 @@ void verifyPreemtiveAuth()
 	//@Test
 	void verifyTokenAuth()
 	{
-		String bearerToken="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";
+        // Generate your token from GitHub account settings -> Developer settings -> Personal access tokens
+		String bearerToken="";
 		
 		given()
 			.header("Authorization","Bearer " +bearerToken)
