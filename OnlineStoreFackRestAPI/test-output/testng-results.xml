@@ -1,0 +1,45 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results ignored="0" total="7" passed="7" failed="0" skipped="0">
+  <reporter-output>
+  </reporter-output>
+  <suite started-at="2025-12-19T20:46:57 IST" name="API TestSuite" finished-at="2025-12-19T20:47:16 IST" duration-ms="19428">
+    <groups>
+    </groups>
+    <test started-at="2025-12-19T20:46:57 IST" name="API Tests" finished-at="2025-12-19T20:47:16 IST" duration-ms="19428">
+      <class name="testcases.ProductTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.ProductTests@3e8c3cb]" started-at="2025-12-19T20:46:57 IST" name="setup" finished-at="2025-12-19T20:46:57 IST" duration-ms="416" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddNewProduct()[pri:0, instance:testcases.ProductTests@3e8c3cb]" started-at="2025-12-19T20:46:57 IST" name="testAddNewProduct" finished-at="2025-12-19T20:47:08 IST" duration-ms="10152" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testAddNewProduct -->
+        <test-method signature="testGetAllCategories()[pri:0, instance:testcases.ProductTests@3e8c3cb]" started-at="2025-12-19T20:47:08 IST" name="testGetAllCategories" finished-at="2025-12-19T20:47:13 IST" duration-ms="5653" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllCategories -->
+        <test-method signature="testGetAllProducts()[pri:0, instance:testcases.ProductTests@3e8c3cb]" started-at="2025-12-19T20:47:13 IST" name="testGetAllProducts" finished-at="2025-12-19T20:47:14 IST" duration-ms="625" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllProducts -->
+        <test-method signature="testGetLimitedProducts()[pri:0, instance:testcases.ProductTests@3e8c3cb]" started-at="2025-12-19T20:47:14 IST" name="testGetLimitedProducts" finished-at="2025-12-19T20:47:15 IST" duration-ms="667" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetLimitedProducts -->
+        <test-method signature="testGetProductsByCategory()[pri:0, instance:testcases.ProductTests@3e8c3cb]" started-at="2025-12-19T20:47:15 IST" name="testGetProductsByCategory" finished-at="2025-12-19T20:47:15 IST" duration-ms="535" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetProductsByCategory -->
+        <test-method signature="testGetSortedProducts()[pri:0, instance:testcases.ProductTests@3e8c3cb]" started-at="2025-12-19T20:47:15 IST" name="testGetSortedProducts" finished-at="2025-12-19T20:47:16 IST" duration-ms="491" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetSortedProducts -->
+        <test-method signature="testGetSortedProductsAsc()[pri:0, instance:testcases.ProductTests@3e8c3cb]" started-at="2025-12-19T20:47:16 IST" name="testGetSortedProductsAsc" finished-at="2025-12-19T20:47:16 IST" duration-ms="461" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetSortedProductsAsc -->
+      </class> <!-- testcases.ProductTests -->
+    </test> <!-- API Tests -->
+  </suite> <!-- API TestSuite -->
+</testng-results>

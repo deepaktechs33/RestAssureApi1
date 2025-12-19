@@ -33,8 +33,8 @@ public class HttpMethodDemo {
     }
 /// ///////
 
-    @Test(priority = 2)
-    public void createUser() {
+  //  @Test(priority = 2)
+   public void createUser() {
 
         // Create custom ID (String + number)
         String customId = "STU_" + System.currentTimeMillis();
@@ -62,7 +62,7 @@ public class HttpMethodDemo {
     }
 
 
-    @Test(priority = 3, dependsOnMethods = {"createUser"})
+  //  @Test(priority = 3, dependsOnMethods = {"createUser"})
     public void updateUser() {
 
         HashMap<String, Object> data = new HashMap<>();
@@ -82,7 +82,7 @@ public class HttpMethodDemo {
     }
 
 
-    @Test(priority = 4, dependsOnMethods = {"createUser", "updateUser"})
+  //  @Test(priority = 4, dependsOnMethods = {"createUser", "updateUser"})
     public void deleteUser() {
 
         given()

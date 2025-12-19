@@ -4,9 +4,9 @@ import java.io.FileInputStream;
 import java.io.IOException;
 import java.util.Properties;
 
-public class ConfigReader {
+public class ConfigReader  {
 	Properties   properties;
-	private static final String CONFIG_FILE_PATH=".//test/resources/config.properties";
+	private static final String CONFIG_FILE_PATH="/Users/deepak.kumar02/workspace/RestAssureApi1/OnlineStoreFackRestAPI/src/test/resources/config.properties";
 	
 	public ConfigReader() {
 		

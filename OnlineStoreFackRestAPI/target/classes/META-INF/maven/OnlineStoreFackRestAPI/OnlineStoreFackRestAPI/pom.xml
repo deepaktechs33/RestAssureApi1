@@ -65,6 +65,12 @@ https://maven.apache.org/xsd/maven-4.0.0.xsd">
         <artifactId>xml-path</artifactId>
         <version>5.4.0</version> <!-- Use the appropriate version -->
     </dependency>
+    <dependency>
+    <groupId>com.aventstack</groupId>
+    <artifactId>extentreports</artifactId>
+    <version>5.1.2</version> <!-- Replace with the latest version -->
+</dependency>
+
 
     <!-- JSON Path (required by RestAssured internally) -->
     <dependency>
@@ -84,6 +90,12 @@ https://maven.apache.org/xsd/maven-4.0.0.xsd">
     <artifactId>json</artifactId>
     <version>20250517</version>
 </dependency>
+<dependency>
+  <groupId>org.testng</groupId>
+  <artifactId>testng</artifactId>
+  <version>7.10.2</version>
+  <scope>test</scope>
+</dependency>
 <!-- https://mvnrepository.com/artifact/com.google.code.gson/gson -->
 <dependency>
     <groupId>com.google.code.gson</groupId>
@@ -100,17 +112,35 @@ https://maven.apache.org/xsd/maven-4.0.0.xsd">
 </dependency>
 
     <!-- TestNG -->
-    <dependency>
-        <groupId>org.testng</groupId>
-        <artifactId>testng</artifactId>
-        <version>7.10.2</version>
-        <scope>test</scope>
-    </dependency>
+   
     <!-- https://mvnrepository.com/artifact/com.github.javafaker/javafaker -->
 <dependency>
     <groupId>com.github.javafaker</groupId>
     <artifactId>javafaker</artifactId>
     <version>1.0.2</version>
 </dependency>
+<dependency>
+  <groupId>org.testng</groupId>
+  <artifactId>testng</artifactId>
+  <version>7.10.2</version>
+  <scope>test</scope>
+</dependency>
+
+<dependency>
+  <groupId>ch.qos.logback</groupId>
+  <artifactId>logback-classic</artifactId>
+  <version>1.4.14</version>
+</dependency>
+
+<!-- https://mvnrepository.com/artifact/io.qameta.allure/allure-testng -->
+<dependency>
+    <groupId>io.qameta.allure</groupId>
+    <artifactId>allure-testng</artifactId>
+    <version>2.32.0</version>
+</dependency>
+
+
+
+
 </dependencies>
 </project>

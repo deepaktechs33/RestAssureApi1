@@ -1,6 +1,6 @@
 package routs;
 
-public class Routs {
+public class Routes {
 	public static final String BASE_URL="https://fakestoreapi.com";
 	//Product
 		public static final String GET_ALL_PRODUCTS="/products";
