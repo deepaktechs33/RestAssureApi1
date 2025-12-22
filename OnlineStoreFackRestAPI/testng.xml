@@ -10,5 +10,15 @@
     <classes>
       <class name="testcases.ProductTests"/>
     </classes>
+    
   </test> 
+  
+  <test name = "User Test">
+    <classes>
+      <class name="testcases.UserTest"/>
+    </classes>
+    
+  </test> 
+  
+  
 </suite> 

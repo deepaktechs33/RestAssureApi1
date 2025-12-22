@@ -34,7 +34,7 @@ public class ProductTests extends BaseClass{
 	}
 	
 	//2) Test to retrieve a single product by ID
-	//@Test
+	@Test
 	public void testGetSingleProductById()
 	{
 		int productId=configReader.getIntProperty("productId");
@@ -157,7 +157,7 @@ public class ProductTests extends BaseClass{
 		}
 		
 		//9) Test to update an existing product
-		//@Test
+		@Test
 		public void testUpdateProduct()
 		{
 			int productId=configReader.getIntProperty("productId");
@@ -179,7 +179,7 @@ public class ProductTests extends BaseClass{
 		}
 		
 		//10) test to delete a product
-		//@Test
+		@Test
 		public void testDeleteProduct()
 		{
 			int productId=configReader.getIntProperty("productId");

@@ -3,12 +3,12 @@
 <suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases.ProductDataDrivenTest">
+      <class name="testcases.UserTest">
         <methods>
+          <include name="testCreateUser"/>
           <include name="setup"/>
-          <include name="testAddNewProduct" invocation-numbers="0 1 2 3 4"/>
         </methods>
-      </class> <!-- testcases.ProductDataDrivenTest -->
+      </class> <!-- testcases.UserTest -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

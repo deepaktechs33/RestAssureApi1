@@ -1,20 +1,14 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
-<suite name="Failed suite [API TestSuite]">
-  <listeners>
-    <listener class-name="utils.ExtentReporter"/>
-  </listeners>
-  <test thread-count="5" name="API Tests(failed)">
+<suite name="Failed suite [Default suite]" guice-stage="DEVELOPMENT">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="testcases.ProductTests">
+      <class name="testcases.UserTest">
         <methods>
-          <include name="testGetSingleProductById"/>
-          <include name="testAddNewProduct"/>
-          <include name="testDeleteProduct"/>
-          <include name="testUpdateProduct"/>
+          <include name="testCreateUser"/>
           <include name="setup"/>
         </methods>
-      </class> <!-- testcases.ProductTests -->
+      </class> <!-- testcases.UserTest -->
     </classes>
-  </test> <!-- API Tests(failed) -->
-</suite> <!-- Failed suite [API TestSuite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
