@@ -6,7 +6,7 @@
   	<listener class-name="utils.ExtentReporter"/>
   </listeners>
   
-  <test thread-count="2" name="API Tests">
+  <test thread-count="3" name="API Tests">
     <classes>
       <class name="testcases.ProductTests"/>
     </classes>
@@ -18,7 +18,14 @@
       <class name="testcases.UserTest"/>
     </classes>
     
+    <classes>
+      <class name="testcases.CartTests"/>
+    </classes>
+    
   </test> 
   
   
 </suite> 
+
+
+<!--CartTests -->
