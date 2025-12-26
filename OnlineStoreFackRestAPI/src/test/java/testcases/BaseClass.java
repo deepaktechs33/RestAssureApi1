@@ -3,8 +3,6 @@ package testcases;
 import java.io.FileNotFoundException;
 import java.io.FileOutputStream;
 import java.io.PrintStream;
-import java.time.LocalDate;
-import java.time.format.DateTimeFormatter;
 import java.util.List;
 
 import org.testng.annotations.BeforeClass;
@@ -14,6 +12,9 @@ import io.restassured.filter.log.RequestLoggingFilter;
 import io.restassured.filter.log.ResponseLoggingFilter;
 import routs.Routes;
 import utils.ConfigReader;
+
+import java.time.format.DateTimeFormatter;
+import java.time.LocalDate;
 
 public class BaseClass {
 
@@ -27,7 +28,7 @@ public class BaseClass {
 	@BeforeClass
 	public void setup() throws FileNotFoundException
 	{
-		RestAssured.baseURI=Routes.BASE_URL;
+		RestAssured.baseURI=routs.Routes.BASE_URL;
 		
 		configReader=new ConfigReader();
 		
@@ -75,7 +76,8 @@ public class BaseClass {
 			return true;
 		}
 		 
-		 
+		//Helper method to check dates fall within the specified range
+
 		 public static final DateTimeFormatter FORMATTER = DateTimeFormatter.ofPattern("yyyy-MM-dd");
 		    
 		    public boolean validateCartDatesWithinRange(List<String> cartDates, String startDate, String endDate) {
@@ -93,4 +95,10 @@ public class BaseClass {
 		        }
 		        return true; // All dates are within range
 		    }
+		    
+		    
+		 
+		 
+		 
+		 
 }

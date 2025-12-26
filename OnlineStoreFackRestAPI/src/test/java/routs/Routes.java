@@ -24,8 +24,8 @@ public class Routes {
 	    public static final String DELETE_USER = "/users/{id}";
 	    
 	    
-	    
-	  //Cart
+
+	    //Cart
 	    public static final String GET_ALL_CARTS = "/carts";
 	    public static final String GET_CART_BY_ID = "/carts/{id}";
 	    public static final String GET_CARTS_BY_DATE_RANGE = "/carts?startdate={startdate}&enddate={enddate}";
@@ -35,6 +35,10 @@ public class Routes {
 	    public static final String CREATE_CART = "/carts";
 	    public static final String UPDATE_CART = "/carts/{id}";
 	    public static final String DELETE_CART = "/carts/{id}";
+
+	        
+	    //Login (Auth)
+	    public static final String AUTH_LOGIN = "/auth/login";
 
 
 }

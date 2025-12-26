@@ -13,9 +13,11 @@ import pojo.Address;
 import pojo.Cart;
 import pojo.CartProduct;
 import pojo.GeoLocation;
+import pojo.Login;
 import pojo.Name;
 import pojo.Product;
 import pojo.User;
+
 
 public class Payload {
 	
@@ -85,7 +87,7 @@ public class Payload {
 	        products.add(cartProduct);
 
 	        
-	        //new Date()  ----> Returns date like  Wed Feb 19 13:17:45 IST 202
+	        //new Date()  ----> Returns date like  Wed Feb 19 13:17:45 IST 2025
 	        // We need to convert this to "yyyy-MM-dd" format in String 
 	        
 	         SimpleDateFormat outputFormat = new SimpleDateFormat("yyyy-MM-dd", Locale.ENGLISH);// Define output date format
@@ -94,10 +96,19 @@ public class Payload {
 	        return new Cart(userId, date, products);
 	    }
 		
-	
-	
-	
-	
+		
+		
+		
+		//Login
+		public static Login loginPayload()
+		{
+			String username=faker.name().username();
+			String password=faker.internet().password();
+			
+			Login login=new Login(username,password);
+			return login;
+			
+		}
 	
 	
 	

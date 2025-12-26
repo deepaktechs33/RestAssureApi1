@@ -1,101 +1,181 @@
 <?xml version="1.0" encoding="UTF-8"?>
-<testng-results ignored="0" total="19" passed="19" failed="0" skipped="0">
+<testng-results ignored="0" total="33" passed="33" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2025-12-24T00:10:38 IST" name="API TestSuite" finished-at="2025-12-24T00:11:09 IST" duration-ms="31024">
+  <suite started-at="2025-12-26T16:16:46 IST" name="API TestSuite" finished-at="2025-12-26T16:17:28 IST" duration-ms="42205">
     <groups>
     </groups>
-    <test started-at="2025-12-24T00:10:38 IST" name="API Tests" finished-at="2025-12-24T00:10:57 IST" duration-ms="19462">
-      <class name="testcases.ProductTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.ProductTests@798162bc]" started-at="2025-12-24T00:10:38 IST" name="setup" finished-at="2025-12-24T00:10:39 IST" duration-ms="490" status="PASS">
+    <test started-at="2025-12-26T16:16:46 IST" name="User Tests" finished-at="2025-12-26T16:17:08 IST" duration-ms="21879">
+      <class name="testcases.UserTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.UserTests@68746f22]" started-at="2025-12-26T16:16:46 IST" name="setup" finished-at="2025-12-26T16:16:47 IST" duration-ms="474" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testAddNewProduct()[pri:0, instance:testcases.ProductTests@798162bc]" started-at="2025-12-24T00:10:39 IST" name="testAddNewProduct" finished-at="2025-12-24T00:10:48 IST" duration-ms="9484" status="PASS">
+        <test-method signature="testCreateUser()[pri:0, instance:testcases.UserTests@68746f22]" started-at="2025-12-26T16:16:47 IST" name="testCreateUser" finished-at="2025-12-26T16:16:57 IST" duration-ms="10555" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCreateUser -->
+        <test-method signature="testDeleteUser()[pri:0, instance:testcases.UserTests@68746f22]" started-at="2025-12-26T16:16:57 IST" name="testDeleteUser" finished-at="2025-12-26T16:17:03 IST" duration-ms="5790" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testDeleteUser -->
+        <test-method signature="testGetAllUsers()[pri:0, instance:testcases.UserTests@68746f22]" started-at="2025-12-26T16:17:03 IST" name="testGetAllUsers" finished-at="2025-12-26T16:17:04 IST" duration-ms="713" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetAllUsers -->
+        <test-method signature="testGetUserById()[pri:0, instance:testcases.UserTests@68746f22]" started-at="2025-12-26T16:17:04 IST" name="testGetUserById" finished-at="2025-12-26T16:17:05 IST" duration-ms="838" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUserById -->
+        <test-method signature="testGetUsersSorted()[pri:0, instance:testcases.UserTests@68746f22]" started-at="2025-12-26T16:17:05 IST" name="testGetUsersSorted" finished-at="2025-12-26T16:17:06 IST" duration-ms="1018" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUsersSorted -->
+        <test-method signature="testGetUsersSortedAsc()[pri:0, instance:testcases.UserTests@68746f22]" started-at="2025-12-26T16:17:06 IST" name="testGetUsersSortedAsc" finished-at="2025-12-26T16:17:06 IST" duration-ms="631" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUsersSortedAsc -->
+        <test-method signature="testGetUsersWithLimit()[pri:0, instance:testcases.UserTests@68746f22]" started-at="2025-12-26T16:17:06 IST" name="testGetUsersWithLimit" finished-at="2025-12-26T16:17:07 IST" duration-ms="826" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetUsersWithLimit -->
+        <test-method signature="testUpdateUser()[pri:0, instance:testcases.UserTests@68746f22]" started-at="2025-12-26T16:17:07 IST" name="testUpdateUser" finished-at="2025-12-26T16:17:08 IST" duration-ms="544" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUpdateUser -->
+      </class> <!-- testcases.UserTests -->
+    </test> <!-- User Tests -->
+    <test started-at="2025-12-26T16:16:46 IST" name="Product Tests" finished-at="2025-12-26T16:17:16 IST" duration-ms="29659">
+      <class name="testcases.ProductTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.ProductTests@465232e9]" started-at="2025-12-26T16:16:46 IST" name="setup" finished-at="2025-12-26T16:16:47 IST" duration-ms="474" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testAddNewProduct()[pri:0, instance:testcases.ProductTests@465232e9]" started-at="2025-12-26T16:16:47 IST" name="testAddNewProduct" finished-at="2025-12-26T16:16:57 IST" duration-ms="10567" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testAddNewProduct -->
-        <test-method signature="testDeleteProduct()[pri:0, instance:testcases.ProductTests@798162bc]" started-at="2025-12-24T00:10:48 IST" name="testDeleteProduct" finished-at="2025-12-24T00:10:49 IST" duration-ms="454" status="PASS">
+        <test-method signature="testDeleteProduct()[pri:0, instance:testcases.ProductTests@465232e9]" started-at="2025-12-26T16:16:57 IST" name="testDeleteProduct" finished-at="2025-12-26T16:17:03 IST" duration-ms="5710" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteProduct -->
-        <test-method signature="testGetAllCategories()[pri:0, instance:testcases.ProductTests@798162bc]" started-at="2025-12-24T00:10:49 IST" name="testGetAllCategories" finished-at="2025-12-24T00:10:49 IST" duration-ms="460" status="PASS">
+        <test-method signature="testGetAllCategories()[pri:0, instance:testcases.ProductTests@465232e9]" started-at="2025-12-26T16:17:03 IST" name="testGetAllCategories" finished-at="2025-12-26T16:17:04 IST" duration-ms="621" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetAllCategories -->
-        <test-method signature="testGetAllProducts()[pri:0, instance:testcases.ProductTests@798162bc]" started-at="2025-12-24T00:10:49 IST" name="testGetAllProducts" finished-at="2025-12-24T00:10:55 IST" duration-ms="5544" status="PASS">
+        <test-method signature="testGetAllProducts()[pri:0, instance:testcases.ProductTests@465232e9]" started-at="2025-12-26T16:17:04 IST" name="testGetAllProducts" finished-at="2025-12-26T16:17:05 IST" duration-ms="849" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetAllProducts -->
-        <test-method signature="testGetLimitedProducts()[pri:0, instance:testcases.ProductTests@798162bc]" started-at="2025-12-24T00:10:55 IST" name="testGetLimitedProducts" finished-at="2025-12-24T00:10:55 IST" duration-ms="430" status="PASS">
+        <test-method signature="testGetLimitedProducts()[pri:0, instance:testcases.ProductTests@465232e9]" started-at="2025-12-26T16:17:05 IST" name="testGetLimitedProducts" finished-at="2025-12-26T16:17:06 IST" duration-ms="1561" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetLimitedProducts -->
-        <test-method signature="testGetProductsByCategory()[pri:0, instance:testcases.ProductTests@798162bc]" started-at="2025-12-24T00:10:55 IST" name="testGetProductsByCategory" finished-at="2025-12-24T00:10:56 IST" duration-ms="445" status="PASS">
+        <test-method signature="testGetProductsByCategory()[pri:0, instance:testcases.ProductTests@465232e9]" started-at="2025-12-26T16:17:06 IST" name="testGetProductsByCategory" finished-at="2025-12-26T16:17:07 IST" duration-ms="800" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetProductsByCategory -->
-        <test-method signature="testGetSingleProductById()[pri:0, instance:testcases.ProductTests@798162bc]" started-at="2025-12-24T00:10:56 IST" name="testGetSingleProductById" finished-at="2025-12-24T00:10:56 IST" duration-ms="376" status="PASS">
+        <test-method signature="testGetSingleProductById()[pri:0, instance:testcases.ProductTests@465232e9]" started-at="2025-12-26T16:17:07 IST" name="testGetSingleProductById" finished-at="2025-12-26T16:17:08 IST" duration-ms="638" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetSingleProductById -->
-        <test-method signature="testGetSortedProducts()[pri:0, instance:testcases.ProductTests@798162bc]" started-at="2025-12-24T00:10:56 IST" name="testGetSortedProducts" finished-at="2025-12-24T00:10:57 IST" duration-ms="451" status="PASS">
+        <test-method signature="testGetSortedProducts()[pri:0, instance:testcases.ProductTests@465232e9]" started-at="2025-12-26T16:17:08 IST" name="testGetSortedProducts" finished-at="2025-12-26T16:17:14 IST" duration-ms="6446" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetSortedProducts -->
-        <test-method signature="testGetSortedProductsAsc()[pri:0, instance:testcases.ProductTests@798162bc]" started-at="2025-12-24T00:10:57 IST" name="testGetSortedProductsAsc" finished-at="2025-12-24T00:10:57 IST" duration-ms="412" status="PASS">
+        <test-method signature="testGetSortedProductsAsc()[pri:0, instance:testcases.ProductTests@465232e9]" started-at="2025-12-26T16:17:14 IST" name="testGetSortedProductsAsc" finished-at="2025-12-26T16:17:15 IST" duration-ms="754" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetSortedProductsAsc -->
-        <test-method signature="testUpdateProduct()[pri:0, instance:testcases.ProductTests@798162bc]" started-at="2025-12-24T00:10:57 IST" name="testUpdateProduct" finished-at="2025-12-24T00:10:57 IST" duration-ms="433" status="PASS">
+        <test-method signature="testUpdateProduct()[pri:0, instance:testcases.ProductTests@465232e9]" started-at="2025-12-26T16:17:15 IST" name="testUpdateProduct" finished-at="2025-12-26T16:17:16 IST" duration-ms="650" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateProduct -->
       </class> <!-- testcases.ProductTests -->
-    </test> <!-- API Tests -->
-    <test started-at="2025-12-24T00:10:58 IST" name="User Test" finished-at="2025-12-24T00:11:09 IST" duration-ms="10725">
-      <class name="testcases.CartTests">
-        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.CartTests@7ac296f6]" started-at="2025-12-24T00:10:58 IST" name="setup" finished-at="2025-12-24T00:10:58 IST" duration-ms="11" status="PASS">
+    </test> <!-- Product Tests -->
+    <test started-at="2025-12-26T16:17:16 IST" name="Auth Tests" finished-at="2025-12-26T16:17:19 IST" duration-ms="2859">
+      <class name="testcases.LoginTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.LoginTests@9cb8225]" started-at="2025-12-26T16:17:16 IST" name="setup" finished-at="2025-12-26T16:17:16 IST" duration-ms="17" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- setup -->
-        <test-method signature="testCreateCart()[pri:0, instance:testcases.CartTests@7ac296f6]" started-at="2025-12-24T00:10:58 IST" name="testCreateCart" finished-at="2025-12-24T00:10:59 IST" duration-ms="761" status="PASS">
+        <test-method signature="testInvalidUserLogin()[pri:0, instance:testcases.LoginTests@9cb8225]" started-at="2025-12-26T16:17:16 IST" name="testInvalidUserLogin" finished-at="2025-12-26T16:17:18 IST" duration-ms="1964" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testInvalidUserLogin -->
+        <test-method signature="testValidUserLogin()[pri:0, instance:testcases.LoginTests@9cb8225]" started-at="2025-12-26T16:17:18 IST" name="testValidUserLogin" finished-at="2025-12-26T16:17:19 IST" duration-ms="832" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testValidUserLogin -->
+      </class> <!-- testcases.LoginTests -->
+    </test> <!-- Auth Tests -->
+    <test started-at="2025-12-26T16:17:24 IST" name="Schema Tests" finished-at="2025-12-26T16:17:26 IST" duration-ms="2372">
+      <class name="testcases.SchemaTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.SchemaTests@7283d3eb]" started-at="2025-12-26T16:17:24 IST" name="setup" finished-at="2025-12-26T16:17:24 IST" duration-ms="5" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCartSchema()[pri:0, instance:testcases.SchemaTests@7283d3eb]" started-at="2025-12-26T16:17:24 IST" name="testCartSchema" finished-at="2025-12-26T16:17:25 IST" duration-ms="1025" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testCartSchema -->
+        <test-method signature="testProductSchema()[pri:0, instance:testcases.SchemaTests@7283d3eb]" started-at="2025-12-26T16:17:25 IST" name="testProductSchema" finished-at="2025-12-26T16:17:25 IST" duration-ms="604" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testProductSchema -->
+        <test-method signature="testUserSchema()[pri:0, instance:testcases.SchemaTests@7283d3eb]" started-at="2025-12-26T16:17:25 IST" name="testUserSchema" finished-at="2025-12-26T16:17:26 IST" duration-ms="711" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testUserSchema -->
+      </class> <!-- testcases.SchemaTests -->
+    </test> <!-- Schema Tests -->
+    <test started-at="2025-12-26T16:17:13 IST" name="Cart Tests" finished-at="2025-12-26T16:17:28 IST" duration-ms="14770">
+      <class name="testcases.CartTests">
+        <test-method is-config="true" signature="setup()[pri:0, instance:testcases.CartTests@79defdc]" started-at="2025-12-26T16:17:13 IST" name="setup" finished-at="2025-12-26T16:17:13 IST" duration-ms="12" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- setup -->
+        <test-method signature="testCreateCart()[pri:0, instance:testcases.CartTests@79defdc]" started-at="2025-12-26T16:17:13 IST" name="testCreateCart" finished-at="2025-12-26T16:17:14 IST" duration-ms="845" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testCreateCart -->
-        <test-method signature="testDeleteCart()[pri:0, instance:testcases.CartTests@7ac296f6]" started-at="2025-12-24T00:10:59 IST" name="testDeleteCart" finished-at="2025-12-24T00:11:00 IST" duration-ms="593" status="PASS">
+        <test-method signature="testDeleteCart()[pri:0, instance:testcases.CartTests@79defdc]" started-at="2025-12-26T16:17:14 IST" name="testDeleteCart" finished-at="2025-12-26T16:17:15 IST" duration-ms="665" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testDeleteCart -->
-        <test-method signature="testGetAllCarts()[pri:0, instance:testcases.CartTests@7ac296f6]" started-at="2025-12-24T00:11:00 IST" name="testGetAllCarts" finished-at="2025-12-24T00:11:05 IST" duration-ms="5515" status="PASS">
+        <test-method signature="testGetAllCarts()[pri:0, instance:testcases.CartTests@79defdc]" started-at="2025-12-26T16:17:15 IST" name="testGetAllCarts" finished-at="2025-12-26T16:17:16 IST" duration-ms="683" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetAllCarts -->
-        <test-method signature="testGetCartsByDateRange()[pri:0, instance:testcases.CartTests@7ac296f6]" started-at="2025-12-24T00:11:05 IST" name="testGetCartsByDateRange" finished-at="2025-12-24T00:11:06 IST" duration-ms="637" status="PASS">
+        <test-method signature="testGetCartById()[pri:0, instance:testcases.CartTests@79defdc]" started-at="2025-12-26T16:17:16 IST" name="testGetCartById" finished-at="2025-12-26T16:17:16 IST" duration-ms="799" status="PASS">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- testGetCartById -->
+        <test-method signature="testGetCartsByDateRange()[pri:0, instance:testcases.CartTests@79defdc]" started-at="2025-12-26T16:17:16 IST" name="testGetCartsByDateRange" finished-at="2025-12-26T16:17:19 IST" duration-ms="2231" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetCartsByDateRange -->
-        <test-method signature="testGetCartsSorted()[pri:0, instance:testcases.CartTests@7ac296f6]" started-at="2025-12-24T00:11:06 IST" name="testGetCartsSorted" finished-at="2025-12-24T00:11:06 IST" duration-ms="522" status="PASS">
+        <test-method signature="testGetCartsSorted()[pri:0, instance:testcases.CartTests@79defdc]" started-at="2025-12-26T16:17:19 IST" name="testGetCartsSorted" finished-at="2025-12-26T16:17:25 IST" duration-ms="6781" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetCartsSorted -->
-        <test-method signature="testGetCartsSortedAsc()[pri:0, instance:testcases.CartTests@7ac296f6]" started-at="2025-12-24T00:11:06 IST" name="testGetCartsSortedAsc" finished-at="2025-12-24T00:11:07 IST" duration-ms="609" status="PASS">
+        <test-method signature="testGetCartsSortedAsc()[pri:0, instance:testcases.CartTests@79defdc]" started-at="2025-12-26T16:17:25 IST" name="testGetCartsSortedAsc" finished-at="2025-12-26T16:17:26 IST" duration-ms="650" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetCartsSortedAsc -->
-        <test-method signature="testGetCartsWithLimit()[pri:0, instance:testcases.CartTests@7ac296f6]" started-at="2025-12-24T00:11:07 IST" name="testGetCartsWithLimit" finished-at="2025-12-24T00:11:08 IST" duration-ms="1032" status="PASS">
+        <test-method signature="testGetCartsWithLimit()[pri:0, instance:testcases.CartTests@79defdc]" started-at="2025-12-26T16:17:26 IST" name="testGetCartsWithLimit" finished-at="2025-12-26T16:17:27 IST" duration-ms="692" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetCartsWithLimit -->
-        <test-method signature="testGetUserCart()[pri:0, instance:testcases.CartTests@7ac296f6]" started-at="2025-12-24T00:11:08 IST" name="testGetUserCart" finished-at="2025-12-24T00:11:08 IST" duration-ms="482" status="PASS">
+        <test-method signature="testGetUserCart()[pri:0, instance:testcases.CartTests@79defdc]" started-at="2025-12-26T16:17:27 IST" name="testGetUserCart" finished-at="2025-12-26T16:17:27 IST" duration-ms="726" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testGetUserCart -->
-        <test-method signature="testUpdateCart()[pri:0, instance:testcases.CartTests@7ac296f6]" started-at="2025-12-24T00:11:08 IST" name="testUpdateCart" finished-at="2025-12-24T00:11:09 IST" duration-ms="476" status="PASS">
+        <test-method signature="testUpdateCart()[pri:0, instance:testcases.CartTests@79defdc]" started-at="2025-12-26T16:17:28 IST" name="testUpdateCart" finished-at="2025-12-26T16:17:28 IST" duration-ms="622" status="PASS">
           <reporter-output>
           </reporter-output>
         </test-method> <!-- testUpdateCart -->
       </class> <!-- testcases.CartTests -->
-    </test> <!-- User Test -->
+    </test> <!-- Cart Tests -->
   </suite> <!-- API TestSuite -->
 </testng-results>

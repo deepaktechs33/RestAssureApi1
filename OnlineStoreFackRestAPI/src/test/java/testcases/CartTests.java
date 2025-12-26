@@ -31,7 +31,7 @@ public class CartTests extends BaseClass{
 	                .body("size()", greaterThan(0)); // Validate that the response is not empty
 	    }
 	
-	 	//@Test
+	 @Test
 	 	 public void testGetCartById() {
 	     	int cartId = configReader.getIntProperty("cartId");
 	         given()
@@ -44,7 +44,7 @@ public class CartTests extends BaseClass{
 	                 .body("id", equalTo(cartId)); // Validate that the response contains the correct cart ID
 	     }
 	 	 
-	 	@Test
+	 @Test
 	    public void testGetCartsByDateRange() {
 	     
 	    	 String startDate = configReader.getProperty("startdate");
@@ -70,7 +70,7 @@ public class CartTests extends BaseClass{
 	        
 	    }
 	    
-	   @Test
+	    @Test
 	    public void testGetUserCart() {
 	        int userId = configReader.getIntProperty("userId");
 	        
@@ -84,7 +84,7 @@ public class CartTests extends BaseClass{
 	    }
 	    
 	    
-	    @Test
+	   @Test
 	    public void testGetCartsWithLimit() {
 	        int limit = configReader.getIntProperty("limit");
 	        given()
@@ -96,7 +96,7 @@ public class CartTests extends BaseClass{
 	                .body("size()", lessThanOrEqualTo(limit)); // Validate that the response size is within the limit
 	    }
 
-	    @Test
+	   @Test
 	    public void testGetCartsSorted() {
 	    	Response response = given()
 	            .pathParam("order", "desc")
@@ -154,7 +154,7 @@ public class CartTests extends BaseClass{
 	    			.body("products.size()", greaterThan(0));
 	          }
 
-	    @Test
+	   @Test
 	    public void testUpdateCart() {
 	        
 	    	int userId = configReader.getIntProperty("userId");
