@@ -2,12 +2,8 @@ package Day3;
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
-
-
 public class AuthenticationTests {
-
-
-//@Test
+//@Tes	
 void verifyBasicAuth()
 {
 	given()
@@ -19,10 +15,7 @@ void verifyBasicAuth()
 		.body("authenticated", equalTo(true))
 		.log().body();
 }
-
-
 //2. Basic Preemptive Authentication.
-
 //@Test
 void verifyPreemtiveAuth()
 {
@@ -35,7 +28,6 @@ void verifyPreemtiveAuth()
 		.body("authenticated", equalTo(true))
 		.log().body();
 }
-
 //3. Digest Authentication.
 
 	//@Test
@@ -67,10 +59,7 @@ void verifyPreemtiveAuth()
 			.log().body();
 		
 	}
-
-	
-	//5. API Key authentication	
-	
+//5. API Key authentication	
 	@Test
 	void verifyAPIKeyAuth()
 	{

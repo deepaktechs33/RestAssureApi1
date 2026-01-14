@@ -1,13 +1,9 @@
 package Day4;
-
 import org.testng.annotations.Test;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
 import java.io.File;
-
-
-
 public class FileUploadAndDownload {
 
 	//1) single file upload
@@ -27,13 +23,10 @@ public class FileUploadAndDownload {
 			.statusCode(200)
 			.body("fileName", equalTo("Notes (3).txt"))
 			.log().body();
-		
-	}
+		}
 	
-	
-	//2) Multiple files upload
-	
-	//@Test
+		//2) Multiple files upload
+//@Test
 	void uploadMultipleFiles()
 	{
 		File myfile1=new File("/Users/deepak.kumar02/Documents/Postman/Day19/Notes (3).txt");
@@ -53,7 +46,6 @@ public class FileUploadAndDownload {
 			.log().body();
 		
 	}
-	
 	@Test
 	void downloadFile()
 	{
@@ -66,12 +58,4 @@ public class FileUploadAndDownload {
 			.log().body();
 		
 	}
-	
-	
-	
-	
-	
-	
-	
-	
-}
+	}

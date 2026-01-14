@@ -1,14 +1,10 @@
 package Day5;
 import io.restassured.path.json.JsonPath;
-
-
 import static org.hamcrest.MatcherAssert.assertThat;
 import static org.hamcrest.Matchers.*;
-
 import java.io.File;
 import java.io.FileNotFoundException;
 import java.io.FileReader;
-
 import org.json.JSONObject;
 import org.json.JSONTokener;
 import org.testng.annotations.Test;

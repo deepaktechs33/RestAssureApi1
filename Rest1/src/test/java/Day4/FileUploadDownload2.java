@@ -1,13 +1,8 @@
-package Day4
-;
-
+package Day4;
 import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
-
 import java.io.File;
-
 import org.testng.annotations.Test;
-
 public class FileUploadDownload2 {
 
     /**

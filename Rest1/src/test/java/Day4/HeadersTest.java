@@ -1,7 +1,5 @@
 package Day4;
-
 import org.testng.annotations.Test;
-
 import io.restassured.http.Cookie;
 import io.restassured.http.Header;
 import io.restassured.http.Headers;
@@ -10,8 +8,6 @@ import static io.restassured.RestAssured.*;
 import static org.hamcrest.Matchers.*;
 
 import java.util.Map;
-
-
 public class HeadersTest {
 
 	@Test
