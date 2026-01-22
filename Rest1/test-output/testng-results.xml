@@ -2,16 +2,16 @@
 <testng-results ignored="0" total="1" passed="1" failed="0" skipped="0">
   <reporter-output>
   </reporter-output>
-  <suite started-at="2026-01-02T11:20:17 IST" name="Default suite" finished-at="2026-01-02T11:20:21 IST" duration-ms="3820">
+  <suite started-at="2026-01-15T15:35:48 IST" name="Default suite" finished-at="2026-01-15T15:35:50 IST" duration-ms="1968">
     <groups>
     </groups>
-    <test started-at="2026-01-02T11:20:17 IST" name="Default test" finished-at="2026-01-02T11:20:21 IST" duration-ms="3820">
-      <class name="Day4.CookiesTest">
-        <test-method signature="testCookiesInResponse()[pri:0, instance:Day4.CookiesTest@6e4784bc]" started-at="2026-01-02T11:20:17 IST" name="testCookiesInResponse" finished-at="2026-01-02T11:20:21 IST" duration-ms="3757" status="PASS">
+    <test started-at="2026-01-15T15:35:48 IST" name="Default test" finished-at="2026-01-15T15:35:50 IST" duration-ms="1968">
+      <class name="Day5.ParseComplexJsonResponse">
+        <test-method signature="testUserDetailsValidation()[pri:1, instance:Day5.ParseComplexJsonResponse@67a20f67]" started-at="2026-01-15T15:35:48 IST" name="testUserDetailsValidation" finished-at="2026-01-15T15:35:50 IST" duration-ms="1903" status="PASS">
           <reporter-output>
           </reporter-output>
-        </test-method> <!-- testCookiesInResponse -->
-      </class> <!-- Day4.CookiesTest -->
+        </test-method> <!-- testUserDetailsValidation -->
+      </class> <!-- Day5.ParseComplexJsonResponse -->
     </test> <!-- Default test -->
   </suite> <!-- Default suite -->
 </testng-results>

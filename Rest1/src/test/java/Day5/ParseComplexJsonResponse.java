@@ -17,16 +17,18 @@ public class ParseComplexJsonResponse {
 		FileReader fileReader = null;
 		try {
 			fileReader = new FileReader(myfile);
-		} catch (FileNotFoundException e) {
+		} 
+		catch (FileNotFoundException e) {
 			e.printStackTrace();
 		}
+		
 		JSONTokener jsonTokener=new JSONTokener(fileReader);
 		
 		JSONObject jsonResponse=new JSONObject(jsonTokener);
 		return jsonResponse;
 	}
 	
-  //  @Test(priority=1)
+    @Test(priority=1)
     public void testUserDetailsValidation() {
     			
         // Parse JSON response
@@ -94,7 +96,7 @@ public class ParseComplexJsonResponse {
         assertThat(secondOrderItemPrice, is(799.99));
     }
 
-   @Test(priority=3)
+  // @Test(priority=3)
     public void testPreferencesAndMetadataValidation() {
     	// Parse JSON response
         JsonPath jsonPath = new JsonPath(getJsonResponse().toString());

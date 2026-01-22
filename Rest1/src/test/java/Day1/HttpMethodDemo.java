@@ -21,6 +21,7 @@ public class HttpMethodDemo {
     public void getUsers() {
 
         given()
+        
         .when()
                 .get("http://localhost:3000/students")
         .then()
@@ -31,9 +32,7 @@ public class HttpMethodDemo {
                 .body(containsString("courses"))
                 .log().all();
     }
-
-
-    @Test(priority = 2)
+@Test(priority = 2)
    public void createUser() {
 
         // Create custom ID (String + number)

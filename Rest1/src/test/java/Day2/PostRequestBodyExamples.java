@@ -27,7 +27,7 @@ public class PostRequestBodyExamples {
 	void createStudentUsingHashMap()
 	{
 		
-		HashMap <String, Object> requestBody=new HashMap<>();
+		HashMap <String, Object> requestBody =new HashMap<>();
 		
 		requestBody.put("name","Scott");
 		requestBody.put("location","France");

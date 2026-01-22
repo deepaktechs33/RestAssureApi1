@@ -45,7 +45,7 @@ void verifyPreemtiveAuth()
 	
 //4. Bearer token authentication
 	
-	//@Test
+	@Test
 	void verifyTokenAuth()
 	{
 		String bearerToken="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";
@@ -55,12 +55,14 @@ void verifyPreemtiveAuth()
 		.when()
 			.get("https://api.github.com/user/repos")
 		.then()
-			.statusCode(200)
+			//.statusCode(200)
+			.body("authenticated", equalTo(true))
 			.log().body();
+		//.body("authenticated", equalTo(true))
 		
 	}
 //5. API Key authentication	
-	@Test
+	//@Test
 	void verifyAPIKeyAuth()
 	{
 		given()
